@@ -25,16 +25,11 @@ Manual Installation
 
 [](https://thilinah.gitbooks.io/icehrm-guide/content/manual-installation.html)
 
-Upgrade from Previous Versions to Latest Version
-------------------------------------------------
-
-Refer: [http://blog.icehrm.com/docs/upgrade/](http://blog.icehrm.com/docs/upgrade/)
-
-Setup IceHrm Development Environment
+Setup Tudlo HRM Development Environment
 ------------------------------------
 
-IceHrm development environment is packaged as a Vagrant box. I includes php7, nginx, phpunit and other
-software required for running icehrm
+Tudlo HRM development environment is packaged as a Vagrant box. I includes php7, nginx, phpunit and other
+software required for running Tudlo HRM
 
 Preparing development VM with Vagrant
 -------------------------------------
@@ -45,8 +40,7 @@ Preparing development VM with Vagrant
 
 - Install Vagrant host updater plugin [https://github.com/cogitatio/vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater)
 
-
-- Run vagrant up in hrm root directory (this will download icehrm vagrant image which is  ~1 GB)
+- Run vagrant up in hrm root directory (this will download Tudlo HRM vagrant image which is  ~1 GB)
 
 ```
 ~ $ vagrant up
@@ -78,7 +72,7 @@ Preparing development VM with Vagrant
 ~ $ mysql -udev -pdev dev < /vagrant/core-ext/scripts/hrm_sample_data.sql
 ```
 
-- Navigate to [http://clients.app.dev/dev](http://clients.app.dev/dev) to load icehrm from VM. (user:admin/pass:admin)
+- Navigate to [http://clients.app.dev/dev](http://clients.app.dev/dev) to load Tudlo HRM from VM. (user:admin/pass:admin)
 
 - Unit testing
 
