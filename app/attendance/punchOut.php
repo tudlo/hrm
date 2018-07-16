@@ -24,7 +24,6 @@ $data = json_decode(file_get_contents("php://input"));
 // $attendance->in_time = $data->in_time;
  
 // set attendance property values
-$attendance->in_time = $data->in_time;
 $attendance->employee = $data->employee;
 $attendance->out_time = $data->out_time;
 $attendance->note = $data->note;

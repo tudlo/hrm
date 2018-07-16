@@ -1,11 +1,14 @@
 <?php
+
+include_once "../config.php";
+
 class Database{
- 
+
     // specify your own database credentials
-    private $host = "localhost";
-    private $db_name = "icehrmdb";
-    private $username = "root";
-    private $password = "";
+    private $host = APP_HOST;
+    private $db_name = APP_DB;
+    private $username = APP_USERNAME;
+    private $password = APP_PASSWORD;
     public $conn;
  
     // get the database connection
